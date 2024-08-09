@@ -1,0 +1,22 @@
+[
+  {"id": 1, "name": "Carrot", "description": "A crunchy, orange root vegetable.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 2, "name": "Broccoli", "description": "A green vegetable with a tree-like structure.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 3, "name": "Spinach", "description": "A leafy green vegetable rich in iron.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 4, "name": "Tomato", "description": "A red or yellow vegetable often used in salads and cooking.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 5, "name": "Potato", "description": "A starchy tuber that can be baked, boiled, or fried.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 6, "name": "Onion", "description": "A vegetable with a strong flavor, used in many dishes.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 7, "name": "Bell Pepper", "description": "A colorful vegetable available in green, red, yellow, and orange.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 8, "name": "Cucumber", "description": "A long, green vegetable often used in salads.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 9, "name": "Lettuce", "description": "A leafy green vegetable used in salads and sandwiches.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 10, "name": "Zucchini", "description": "A green or yellow summer squash.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 11, "name": "Celery", "description": "A crunchy vegetable often used in salads and soups.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 12, "name": "Mushroom", "description": "An edible fungus with a variety of uses in cooking.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 13, "name": "Cauliflower", "description": "A white vegetable that can be eaten raw or cooked.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 14, "name": "Green Bean", "description": "A long, green vegetable often steamed or boiled.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 15, "name": "Peas", "description": "Small, round green vegetables often found in pods.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 16, "name": "Corn", "description": "A yellow vegetable that grows on ears.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 17, "name": "Eggplant", "description": "A purple vegetable often used in cooking.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 18, "name": "Radish", "description": "A small, red root vegetable with a peppery flavor.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 19, "name": "Kale", "description": "A leafy green vegetable known for its health benefits.", "image": "images/vegetables/place_holder.jpg"},
+  {"id": 20, "name": "Cabbage", "description": "A leafy green or purple vegetable used in salads and cooking.", "image": "images/vegetables/place_holder.jpg"}
+]

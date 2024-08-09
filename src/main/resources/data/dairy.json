@@ -1,0 +1,22 @@
+[
+  {"id": 1, "name": "Milk", "description": "A nutritious liquid from cows or other animals, rich in calcium.", "image": "/images/dairy/milk.jpg"},
+  {"id": 2, "name": "Cheddar Cheese", "description": "A firm, aged cheese with a sharp flavor.", "image": "/images/dairy/cheddar_cheese.jpg"},
+  {"id": 3, "name": "Yogurt", "description": "A fermented dairy product with a creamy texture and tangy flavor.", "image": "/images/dairy/yogurt.jpg"},
+  {"id": 4, "name": "Butter", "description": "A dairy product made from cream, used for cooking and baking.", "image": "/images/dairy/butter.jpg"},
+  {"id": 5, "name": "Mozzarella Cheese", "description": "A soft, mild cheese often used in Italian dishes.", "image": "/images/dairy/mozzarella_cheese.jpg"},
+  {"id": 6, "name": "Greek Yogurt", "description": "A thicker, creamier type of yogurt with higher protein content.", "image": "/images/dairy/greek_yogurt.jpg"},
+  {"id": 7, "name": "Cottage Cheese", "description": "A soft cheese with a lumpy texture and mild flavor.", "image": "/images/dairy/cottage_cheese.jpg"},
+  {"id": 8, "name": "Ricotta Cheese", "description": "A soft cheese used in Italian dishes, with a slightly grainy texture.", "image": "/images/dairy/ricotta_cheese.jpg"},
+  {"id": 9, "name": "Cream Cheese", "description": "A soft, spreadable cheese used in baking and as a spread.", "image": "/images/dairy/cream_cheese.jpg"},
+  {"id": 10, "name": "Swiss Cheese", "description": "A mild, nutty cheese with characteristic holes.", "image": "/images/dairy/swiss_cheese.jpg"},
+  {"id": 11, "name": "Almond Milk", "description": "A plant-based milk alternative made from almonds.", "image": "/images/dairy/almond_milk.jpg"},
+  {"id": 12, "name": "Soy Milk", "description": "A plant-based milk alternative made from soybeans.", "image": "/images/dairy/soy_milk.jpg"},
+  {"id": 13, "name": "Oat Milk", "description": "A plant-based milk alternative made from oats.", "image": "/images/dairy/oat_milk.jpg"},
+  {"id": 14, "name": "Cashew Cheese", "description": "A dairy-free cheese alternative made from cashews.", "image": "/images/dairy/cashew_cheese.jpg"},
+  {"id": 15, "name": "Hemp Milk", "description": "A plant-based milk alternative made from hemp seeds.", "image": "/images/dairy/hemp_milk.jpg"},
+  {"id": 16, "name": "Coconut Milk", "description": "A plant-based milk alternative made from coconut.", "image": "/images/dairy/coconut_milk.jpg"},
+  {"id": 17, "name": "Rice Milk", "description": "A plant-based milk alternative made from rice.", "image": "/images/dairy/rice_milk.jpg"},
+  {"id": 18, "name": "Nut Cheese", "description": "A dairy-free cheese alternative made from various nuts.", "image": "/images/dairy/nut_cheese.jpg"},
+  {"id": 19, "name": "Goat Cheese", "description": "A tangy cheese made from goat's milk.", "image": "/images/dairy/goat_cheese.jpg"},
+  {"id": 20, "name": "Kefir", "description": "A fermented dairy product with a tangy flavor, rich in probiotics.", "image": "/images/dairy/kefir.jpg"}
+]

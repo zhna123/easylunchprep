@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Whole Wheat Bread", "description": "A common type of bread made from whole wheat flour.", "image": "images/grain/place_holder.jpg"},
+  {"id": 2, "name": "White Bread", "description": "A type of bread made from refined white flour.", "image": "images/grain/place_holder.jpg"},
+  {"id": 3, "name": "Quinoa", "description": "A gluten-free grain alternative often used as a side dish or in salads.", "image": "images/grain/place_holder.jpg"},
+  {"id": 4, "name": "Rice", "description": "A versatile grain that comes in many varieties, commonly used as a side dish.", "image": "images/grain/place_holder.jpg"},
+  {"id": 5, "name": "Oatmeal", "description": "A breakfast cereal made from oats, often enjoyed with milk or water.", "image": "images/grain/place_holder.jpg"},
+  {"id": 6, "name": "Corn Tortillas", "description": "Gluten-free flatbreads made from ground corn, commonly used in Mexican cuisine.", "image": "images/grain/place_holder.jpg"},
+  {"id": 7, "name": "Pasta", "description": "A popular Italian dish made from durum wheat or gluten-free alternatives like rice or quinoa.", "image": "images/grain/place_holder.jpg"},
+  {"id": 8, "name": "Couscous", "description": "A North African grain dish made from crushed durum wheat.", "image": "images/grain/place_holder.jpg"},
+  {"id": 9, "name": "Barley", "description": "A grain often used in soups and stews, rich in fiber.", "image": "images/grain/place_holder.jpg"},
+  {"id": 10, "name": "Gluten-Free Crackers", "description": "Snack crackers made from gluten-free grains like rice or quinoa.", "image": "images/grain/place_holder.jpg"}
+]

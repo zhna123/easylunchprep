@@ -1,0 +1,22 @@
+[
+  {"id": 1, "name": "Chicken Breast", "description": "A lean source of protein commonly used in many dishes.", "image": "images/protein/place_holder.jpg"},
+  {"id": 2, "name": "Salmon", "description": "A fatty fish rich in protein and omega-3 fatty acids.", "image": "images/protein/place_holder.jpg"},
+  {"id": 3, "name": "Eggs", "description": "A versatile source of protein used in various recipes.", "image": "images/protein/place_holder.jpg"},
+  {"id": 4, "name": "Ground Beef", "description": "A common source of protein used in burgers, tacos, and more.", "image": "images/protein/place_holder.jpg"},
+  {"id": 5, "name": "Pork Chops", "description": "A popular cut of pork rich in protein.", "image": "images/protein/place_holder.jpg"},
+  {"id": 6, "name": "Tofu", "description": "A plant-based protein made from soybeans, used in various dishes.", "image": "images/protein/place_holder.jpg"},
+  {"id": 7, "name": "Black Beans", "description": "A plant-based protein commonly used in Mexican and Latin American cuisine.", "image": "images/protein/place_holder.jpg"},
+  {"id": 8, "name": "Turkey Breast", "description": "A lean source of protein often used in sandwiches and salads.", "image": "images/protein/place_holder.jpg"},
+  {"id": 9, "name": "Lentils", "description": "A plant-based protein rich in fiber and nutrients.", "image": "images/protein/place_holder.jpg"},
+  {"id": 10, "name": "Greek Yogurt", "description": "A dairy product high in protein and probiotics.", "image": "images/protein/place_holder.jpg"},
+  {"id": 11, "name": "Tuna", "description": "A fish rich in protein, commonly used in sandwiches and salads.", "image": "images/protein/place_holder.jpg"},
+  {"id": 12, "name": "Edamame", "description": "A plant-based protein made from young soybeans.", "image": "images/protein/place_holder.jpg"},
+  {"id": 13, "name": "Quinoa", "description": "A plant-based protein and grain alternative.", "image": "images/protein/place_holder.jpg"},
+  {"id": 14, "name": "Almonds", "description": "A nut rich in protein, healthy fats, and fiber.", "image": "images/protein/place_holder.jpg"},
+  {"id": 15, "name": "Cottage Cheese", "description": "A dairy product high in protein.", "image": "images/protein/place_holder.jpg"},
+  {"id": 16, "name": "Shrimp", "description": "A seafood rich in protein, often used in various dishes.", "image": "images/protein/place_holder.jpg"},
+  {"id": 17, "name": "Chickpeas", "description": "A plant-based protein commonly used in Mediterranean cuisine.", "image": "images/protein/place_holder.jpg"},
+  {"id": 18, "name": "Peanut Butter", "description": "A spread made from peanuts, high in protein.", "image": "images/protein/place_holder.jpg"},
+  {"id": 19, "name": "Beef Steak", "description": "A rich source of protein from beef, often grilled or pan-fried.", "image": "images/protein/place_holder.jpg"},
+  {"id": 20, "name": "Hemp Seeds", "description": "A plant-based protein rich in healthy fats and nutrients.", "image": "images/protein/place_holder.jpg"}
+]

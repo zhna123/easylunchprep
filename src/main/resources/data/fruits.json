@@ -1,0 +1,22 @@
+[
+  {"id": 1, "name": "Apple", "description": "A sweet red or green fruit.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 2, "name": "Banana", "description": "A long yellow fruit.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 3, "name": "Orange", "description": "A citrus fruit known for its vitamin C content.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 4, "name": "Strawberry", "description": "A red fruit with a juicy texture and sweet flavor.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 5, "name": "Grape", "description": "A small, juicy fruit often eaten in bunches, available in red, green, and black varieties.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 6, "name": "Pineapple", "description": "A tropical fruit with a spiky exterior and sweet interior.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 7, "name": "Mango", "description": "A tropical fruit with a sweet and tangy flavor.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 8, "name": "Blueberry", "description": "A small, blue fruit often used in desserts and smoothies.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 9, "name": "Watermelon", "description": "A large fruit with a green rind and sweet, red flesh, perfect for summer.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 10, "name": "Peach", "description": "A sweet fruit with a fuzzy skin and juicy flesh.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 11, "name": "Pear", "description": "A sweet fruit with a rounded bottom and tapering top, available in several varieties.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 12, "name": "Cherry", "description": "A small, round fruit with a pit in the middle, often red or dark red.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 13, "name": "Plum", "description": "A fruit with a smooth skin and sweet, juicy flesh, available in red, purple, and yellow varieties.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 14, "name": "Kiwi", "description": "A small, brown fruit with green flesh and tiny black seeds.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 15, "name": "Lemon", "description": "A sour, yellow citrus fruit used for flavoring and in beverages.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 16, "name": "Lime", "description": "A small, green citrus fruit known for its sour taste, often used in cooking and beverages.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 17, "name": "Raspberry", "description": "A small, red or black berry with a sweet-tart flavor.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 18, "name": "Blackberry", "description": "A small, dark purple to black fruit with a sweet and slightly tart flavor.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 19, "name": "Cantaloupe", "description": "A melon with a rough, netted skin and sweet orange flesh.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 20, "name": "Honeydew", "description": "A melon with a smooth, pale green rind and sweet, green flesh.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"}
+]
