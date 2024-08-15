@@ -5,12 +5,15 @@ import com.zhna123.easylunchprep.entity.*;
 import com.zhna123.easylunchprep.repository.FoodRepository;
 import com.zhna123.easylunchprep.repository.LunchboxRepository;
 import com.zhna123.easylunchprep.repository.UserRepository;
+import com.zhna123.easylunchprep.security.TestSecurityConfig;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.Import;
 import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.Collections;
@@ -24,6 +27,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(UserController.class)
+@Import(TestSecurityConfig.class)
 public class UserControllerTest {
 
     @Autowired
@@ -42,6 +46,7 @@ public class UserControllerTest {
     FoodRepository foodRepository;
 
     @Test
+    @WithMockUser(username = "user")
     public void testFindById() throws Exception {
         User user1 = new User();
         user1.setId(1L);
@@ -61,6 +66,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testCreateUser() throws Exception {
         User user = new User(null, "user1@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -74,6 +80,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testCreateUser_InvalidEmail() throws Exception {
         User user = new User(null, "", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -87,6 +94,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testUpdateUserById() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -103,6 +111,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testUpdateUserById_InvalidName() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -118,6 +127,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testRetrieveLunchboxesForUser() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -132,6 +142,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testCreateLunchboxForUser() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -147,6 +158,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testCreateLunchboxForUser_InvalidName() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -162,6 +174,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testRetrieveFoodForUser() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -176,6 +189,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testRetrieveFoodForUserByCategory() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -194,6 +208,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testCreateFoodForUser() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());
@@ -209,6 +224,7 @@ public class UserControllerTest {
     }
 
     @Test
+    @WithMockUser(username = "user")
     public void testCreateFoodForUser_EmptyField() throws Exception {
         User user = new User(1L, "user@email.com", "John", "Doe", "pwd",
                 new DietaryPreferences(), Collections.emptyList(), Collections.emptyList());

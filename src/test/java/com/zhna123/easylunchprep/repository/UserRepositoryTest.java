@@ -39,10 +39,10 @@ public class UserRepositoryTest {
         lunchbox1.setFoods(List.of(userFood));
 
         Lunchbox lunchbox2 = new Lunchbox();
-        lunchbox1.setUser(user);
-        lunchbox1.setName("lunchbox 2");
-        lunchbox1.setFavorite(false);
-        lunchbox1.setFoods(List.of(recFood));
+        lunchbox2.setUser(user);
+        lunchbox2.setName("lunchbox 2");
+        lunchbox2.setFavorite(false);
+        lunchbox2.setFoods(List.of(recFood));
 
         user.setLunchboxes(List.of(lunchbox1, lunchbox2));
         user.setUserFood(List.of(userFood));
