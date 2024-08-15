@@ -2,17 +2,23 @@ package com.zhna123.easylunchprep.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
 
 @Entity
 public class Food {
     @Id
     @GeneratedValue
     private Long id;
+
+    @NotEmpty(message = "Food name must not be empty.")
     private String name;
 
+    @Column(nullable = true)
     private String description;
 
-    private String image;
+    @NotEmpty
+    @Column(nullable = false)
+    private String image = "/path/default";
     @Enumerated(EnumType.STRING)
     private Category category;
 

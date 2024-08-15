@@ -53,12 +53,12 @@ public class UserController {
                 .buildAndExpand(savedUser.getId())
                 .toUri();
 
-        return ResponseEntity.created(location).build();
+        return ResponseEntity.created(location).body(savedUser);
     }
 
     @PutMapping(path = "/users/{id}")
-    public ResponseEntity<User> updateUserById(@PathVariable Long id, @RequestBody User userDetail) {
-        Optional<User> user =  repository.findById(id);
+    public ResponseEntity<User> updateUserById(@PathVariable Long id,  @Valid @RequestBody User userDetail) {
+        Optional<User> user = repository.findById(id);
         if (user.isEmpty()) {
             throw new UserNotFoundException(STR."user not found: id=\{id}");
         }
@@ -92,7 +92,7 @@ public class UserController {
                 .buildAndExpand(saved.getId())
                 .toUri();
 
-        return ResponseEntity.created(location).build();
+        return ResponseEntity.created(location).body(saved);
     }
 
     @GetMapping(path = "/users/{id}/food")
@@ -115,7 +115,7 @@ public class UserController {
     }
 
     @PostMapping(path = "/users/{id}/food")
-    public ResponseEntity<Lunchbox> createFoodForUser(@PathVariable Long id, @Valid @RequestBody Food food) {
+    public ResponseEntity<Food> createFoodForUser(@PathVariable Long id, @Valid @RequestBody Food food) {
         Optional<User> user =  repository.findById(id);
         if (user.isEmpty()) {
             throw new UserNotFoundException(STR."user not found: id=\{id}");
@@ -128,6 +128,6 @@ public class UserController {
                 .buildAndExpand(saved.getId())
                 .toUri();
 
-        return ResponseEntity.created(location).build();
+        return ResponseEntity.created(location).body(saved);
     }
 }

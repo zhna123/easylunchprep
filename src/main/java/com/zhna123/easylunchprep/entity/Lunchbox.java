@@ -2,6 +2,8 @@ package com.zhna123.easylunchprep.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 
 import java.util.List;
 
@@ -12,6 +14,8 @@ public class Lunchbox {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotEmpty(message = "Lunchbox name must not be empty.")
     private String name;
 
     @ManyToMany

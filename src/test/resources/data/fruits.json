@@ -1,0 +1,5 @@
+[
+  {"id": 1, "name": "Apple", "description": "A sweet red or green fruit.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 2, "name": "Banana", "description": "A long yellow fruit.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"},
+  {"id": 3, "name": "Orange", "description": "A citrus fruit known for its vitamin C content.", "image": "images/fruits/place_holder.jpg", "category": "FRUITS"}
+]
