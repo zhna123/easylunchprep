@@ -3,6 +3,7 @@ package com.zhna123.easylunchprep.controller;
 import com.zhna123.easylunchprep.entity.Lunchbox;
 import com.zhna123.easylunchprep.exception.LunchboxNotFoundException;
 import com.zhna123.easylunchprep.repository.LunchboxRepository;
+import org.springframework.context.annotation.Import;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
